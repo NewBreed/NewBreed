@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="NewBreedGamingManagementSystem.exe" version="1.0.0.0" publicKeyToken="6669ccaca0af1b55" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NewBreedGamingManagementSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NewBreedGamingManagementSystem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NewBreedGamingManagementSystem.exe" size="1692672">
+      <assemblyIdentity name="NewBreedGamingManagementSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>y9IOUdd9FEgs+RpyCusks4oepP4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="NewBreedGamingManagementSystem.exe.config" size="1787">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OuY5egxnm85wGw8DSxzSJze5gyk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-OKLJRR8HIFU\Administrator" issuerKeyHash="c7e661f863fdb090e8f6e3425dd4f34d21bd4b2e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>zoI2fFSe14kH4DGd+WSdKIVKdH0=</DigestValue></Reference></SignedInfo><SignatureValue>NjftlBbmnJKud4Fo0PGV0oRxns0D+gjxyPCXDVnn4QU1K1AVWOpXQ9EXPjpEx8jgOlUSmC/0LysPTNEQwAUool10FUDtoZ0XhXV0nP9fzy6l/FlJBImp1HtEJTKqlcO6qoBFuOgBI8+ai5HfInubb84AM4Q26Umb0v3BqExR85s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tABLbqlM10tiIQezgcUMClhGZk3KAh1dAtCIjGyVK9+jG5Q2eRXjhrbCEXX2eBhewKt02vAo7dE25JbsjWzbDgz13os0WtrXU3Z+3MNB42sIUIrXBBNrmkpirbSRzTdlCtEzBi9RGfQFgmWnMqty13CIywctL8FGzDPYdXDb5Y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7d744a85289d64f99d31e00789d79e547c3682ce" Description="" Url=""><as:assemblyIdentity name="NewBreedGamingManagementSystem.exe" version="1.0.0.0" publicKeyToken="6669ccaca0af1b55" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-OKLJRR8HIFU\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>731/NcBYR+dPr0zCv9blnd/OMJ0=</DigestValue></Reference></SignedInfo><SignatureValue>ryv7W8oqEHD7jshpB6K4qt9npa3a680BqG3/6DWuwCaG5acQkVSMvMocYYv8TVle9wbmetFjB1Wbukwifn0z4DM/JdOZIxFlDlS4QDg8fxWvWuZ4hdEgfxnLbFlG2CpPf4+GsTTJMdUTjOUJ45jc6eFz9IZCAF3nOM6sUWGrxks=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tABLbqlM10tiIQezgcUMClhGZk3KAh1dAtCIjGyVK9+jG5Q2eRXjhrbCEXX2eBhewKt02vAo7dE25JbsjWzbDgz13os0WtrXU3Z+3MNB42sIUIrXBBNrmkpirbSRzTdlCtEzBi9RGfQFgmWnMqty13CIywctL8FGzDPYdXDb5Y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQTSqrefGVMJ1DbmxaRhXzkjANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoAVwBJAE4ALQBPAEsATABKAFIAUgA4AEgASQBGAFUAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTEyMTEyODE5NTEyM1oXDTEzMTEyOTAxNTEyM1owRTFDMEEGA1UEAx46AFcASQBOAC0ATwBLAEwASgBSAFIAOABIAEkARgBVAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtABLbqlM10tiIQezgcUMClhGZk3KAh1dAtCIjGyVK9+jG5Q2eRXjhrbCEXX2eBhewKt02vAo7dE25JbsjWzbDgz13os0WtrXU3Z+3MNB42sIUIrXBBNrmkpirbSRzTdlCtEzBi9RGfQFgmWnMqty13CIywctL8FGzDPYdXDb5Y0CAwEAATANBgkqhkiG9w0BAQUFAAOBgQABcsF+38HHRcRkS7WXei9NSjlK/+ALnPfPcj88wUDcYhvmK7Yey0LXoqxU6l7BcVdrizP3FRyNGZ28qN2j/mcBbNbtLSdTcdwY/XfYLoSDNnumK+1YzVXXrsH2mBSsq5FSPf7JWEEMPRuJHHSkncWc+RG7/fERbCaNbNJY9UXMTw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
